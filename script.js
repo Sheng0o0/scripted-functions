@@ -1,7 +1,30 @@
-var sum = 2 + 2;
+$(document).ready(function() {
+  
+  var sum = 2 + 2;
+  
+  if (sum > 10) {
+    $('body').append('Greater than 10<br>');
+  } else {
+    $('body').append('Not greater than 10<br>');
+  }
 
-if (sum > 10) {
-  document.write('Is greater than 10');
-} else {
-  document.write('Is not greater than 10.');
-}
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+});
